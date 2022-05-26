@@ -49,11 +49,13 @@ footer {
 /* ---------------------------------------------------------------------------------------------------- */
 
 /* Global styling */
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Barlow Condensed', sans-serif;
     font-size: medium;
     margin: 0px;
-    scroll-behavior: smooth;
 }
 header, nav, main, #content, article, div, aside, footer {
     /* border: 1px solid #000; */
