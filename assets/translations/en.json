@@ -1,7 +1,139 @@
 {
-    "profileName": "Restu Edo Setiaji",
-    "profileJob": "Web Developer",
-    "aboutMeTitle": "About Me",
-    "aboutMeContent": "I am a Web Developer with 4 years of experience from SMK Negeri 1 Cimahi...",
-    "footerText": "Copyright - 2022 Restu Edo Setiaji"
-}
+    "title": "Document",
+    "nav": {
+        "title": "EDZero",
+        "search": {
+            "placeholder": "Search..."
+        },
+        "menu": "Menu",
+        "menuItems": {
+            "education": "Education",
+            "work": "Work Experience",
+            "achievements": "Achievements",
+            "portfolio": "Portfolio"
+        }
+    },
+    "profile": {
+      "name": "Restu Edo Setiaji",
+      "job": "Web Developer"
+    },
+    "about": {
+      "title": "About Me",
+      "text": "I am a Web Developer with 4 years of experience from SMK Negeri 1 Cimahi. Currently working as a Backend Web Developer, I have substantial experience in building well-functioning systems with OOP principles, functional programming, RESTful API concepts, SOLID principles, database analysis, and project management using Git. I adapt different architectures based on needs, proficient with NodeJS, and currently learning Go."
+    },
+    "techstack": {
+      "title": "Techstack",
+      "items": [
+        "PHP (Laravel & CodeIgniter)",
+        "NodeJS (ExpressJS, VueJS & ReactJS)",
+        "Go (Gin & GoFiber)",
+        "Git (GitHub & GitLab)",
+        "Docker",
+        "SQL & NoSQL (MySQL, Postgre, MongoDB & Firebase)",
+        "Basic Server Deployment (AWS, Azure, GCP, CI/CD & Kubernetes)"
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "phone": "+62 895-3410-28697",
+      "email": "restuedosetiaji@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/restu-edo-setiaji-06314b1b0/",
+      "address": "Jl. Pojok Selatan No.159 RT 001/RW 007, Kel. Setiamanah, Kec. Cimahi Tengah, Cimahi, 40524"
+    },
+    "education": {
+      "title": "Education",
+      "schools": [
+        {
+          "name": "SMK Negeri 1 Cimahi",
+          "major": "Software Engineering | June 2017 - July 2020",
+          "activities": [
+            "Member, IT Unit STMPBDG",
+            "Member, SDRC RPL Forum",
+            "Member, SMK DEV",
+            "Member, English Club"
+          ]
+        },
+        {
+          "name": "Universitas Terbuka",
+          "major": "Information Systems | March 2024 - Present"
+        }
+      ]
+    },
+    "work": {
+      "title": "Work Experiences",
+      "jobs": [
+        {
+          "role": "Back End Developer",
+          "company": "Serasi Autoraya | June 2022 - Present",
+          "details": [
+            "Developed Backend for TRACtoGo web and app using Lumen & NodeJS",
+            "Collaborated with the team to build TRACtoGo Microservice Backend",
+            "Performed performance & system improvements for TRACtoGo Backend",
+            "Designed discount & promo features",
+            "Successfully fulfilled user requirements as requested"
+          ]
+        },
+        {
+          "role": "Web Developer",
+          "company": "Crayonpedia | August 2020 - July 2022",
+          "details": [
+            "Developed Crayonpedia Exam web with CodeIgniter, MySQL, Gitlab, and Docker",
+            "Managed student data on Crayonpedia Edutainment platform",
+            "Supported collaborations with institutions such as courses, certifications, schools, and universities",
+            "Conducted platform training for KCD 13 Ciamis"
+          ]
+        },
+        {
+          "role": "Web Developer",
+          "company": "Metanouva Informatika | June 2019 - August 2019",
+          "details": [
+            "Participated in internship program at Metanouva Informatika",
+            "Designed Project Management System for Malaka9 Company Website",
+            "Developed Malaka9 Company Website",
+            "Designed Geolocation Information module for external companies"
+          ]
+        }
+      ]
+    },
+    "achievements": {
+      "title": "Achievements",
+      "items": [
+        "Dicoding Certifications (2021 - 2023)",
+        "Google Cloud Digital Leader Certification (2021)",
+        "TOEIC Certification (2020)",
+        "Informatics WDC Participant (2018)",
+        "Microsoft Office Training Certification (2017)"
+      ]
+    },
+    "portfolio": {
+      "title": "Portfolio",
+      "projects": [
+        {
+          "title": "Exam Crayonpedia",
+          "link": "https://exam.crayonpedia.id",
+          "image": "assets/img/portfolio1.png",
+          "description": "An exam platform for Crayonpedia, featuring Question Bank, Question Analysis, and Answer Review. Includes 5 question types: Multiple Choice, Multi Option, Short Answer, Essay, and Matching. Built with CodeIgniter, MySQL, and Docker as a test environment."
+        },
+        {
+          "title": "TRACtoGo",
+          "link": "https://backend-ttg-staging.trac.astra.co.id",
+          "image": "assets/img/portfolio2.png",
+          "description": "TRACtoGo is a car and bus rental app available on Web, Android, and iOS. Users can choose vehicles with or without a driver. Rental prices depend on the vehicle type, with special promotions available. Built with Laravel Lumen as backend & NodeJS + Typescript as service integration middleware."
+        },
+        {
+          "title": "Lapor.io",
+          "image": "assets/img/portfolio3.png",
+          "description": "An online complaint service system project inspired by lapor.go.id. Accepts public complaints and forwards them to relevant authorities. Developed with Laravel, MySQL, and MaterializeCSS."
+        },
+        {
+          "title": "EDZero",
+          "image": "assets/img/portfolio4.png",
+          "description": "A portfolio website under development to showcase projects and manage personal blogs and client testimonials. Developed with Laravel, Vue, TailwindCSS, Docker, and PostgreSQL."
+        }
+      ]
+    },
+    "footer": {
+      "text": "Copyright - 2024 Restu Edo Setiaji"
+    }
+  }
+  

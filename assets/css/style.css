@@ -145,6 +145,7 @@ nav ul.navbar > li.collapsible-menu {
     order: 2;
 }
 
+
 /* ---------------------------------------------------------------------------------------------------- */
 
 /* Main styling */
@@ -261,7 +262,7 @@ div.contact-card > div.contact-list.address::before {
 article.article {
     padding: 8px 0px;
 }
-article.article, div.card {
+article.article, div.section, div.card {
     margin-block-start: 8px;
     margin-block-end: 8px;
 }
@@ -276,10 +277,10 @@ div.card > p {
 div.card > ul > li::marker {
     color: var(--primary);
 }
-article.article:first-child, div.card:first-child {
+article.article:first-child, div.section:first-child, div.card:first-child {
     margin-block-start: 0px;
 }
-article.article:last-child, div.card:last-child {
+article.article:last-child, div.section:last-child, div.card:last-child {
     margin-block-end: 0px;
 }
 article.article > h3.article-title {
@@ -303,11 +304,15 @@ article.article > h3.article-title > span {
     font-size: small;
     font-weight: 400;
 }
-article.article > div.card > p, article.article > div.card > h4 {
+article.article > div.card > p,
+article.article > div.card > h4,
+article.article > div.section > div.card > p,
+article.article > div.section > div.card > h4 {
     margin-block-start: 4px;
     margin-block-end: 4px;
 }
-article.article > div.card > ul {
+article.article > div.card > ul,
+article.article > div.section > div.card > ul {
     margin-block-start: 0px;
     margin-block-end: 0px;
     padding-inline-start: 16px;

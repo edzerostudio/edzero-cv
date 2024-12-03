@@ -5,254 +5,133 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title data-translate="title"></title>
     <!-- Style CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <!-- Fonts -->
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Material Icons -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
 <body>
+    <!-- Header Section -->
     <header>
         <nav>
             <ul class="navbar">
-                <li class="nav-title">EDZero</li>
+                <li class="nav-title" data-translate="nav.title">EDZero</li>
+                <li class="language-switcher">
+                    <select id="language-select">
+                        <option value="en">🇬🇧</option>
+                        <option value="id">🇮🇩</option>
+                    </select>
+                </li>
+                <!-- *Hide search bar*
                 <li class="search-bar">
-                    <input type="text" placeholder="Search..">
+                    <input type="text" placeholder="" data-translate="nav.search.placeholder">
                     <button type="submit">
                         <i class="material-icons">search</i>
                     </button>
                 </li>
-                <li class="collapsible">Menu</li>
+                -->
+                <li class="collapsible" data-translate="nav.menu">Menu</li>
                 <li class="collapsible-menu">
                     <ul class="nav-menu">
-                        <li class="nav-item"><a href="#education">Education</a></li>
-                        <li class="nav-item"><a href="#work">Work Experience</a></li>
-                        <li class="nav-item"><a href="#achievements">Achievements</a></li>
-                        <li class="nav-item"><a href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a href="#education" data-translate="nav.menuItems.education"></a></li>
+                        <li class="nav-item"><a href="#work" data-translate="nav.menuItems.work"></a></li>
+                        <li class="nav-item"><a href="#achievements" data-translate="nav.menuItems.achievements"></a></li>
+                        <li class="nav-item"><a href="#portfolio" data-translate="nav.menuItems.portfolio"></a></li>
                     </ul>
                 </li>
-            </ul>
+            </ul>            
         </nav>
     </header>
+
+    <!-- Main Content -->
     <main>
         <div class="page">
+            <!-- Sidebar Section -->
             <aside>
+                <!-- Profile Card -->
                 <div class="side profile">
                     <div class="card profile-card">
-                        <img class="profile-image" src="assets/img/profile.png" />
-                        <h2 class="profile-name">Restu Edo Setiaji</h2>
-                        <p class="profile-job">Web Developer</p>
+                        <img class="profile-image" src="assets/img/profile.png" alt="Profile Picture">
+                        <h2 class="profile-name" data-translate="profile.name">Restu Edo Setiaji</h2>
+                        <p class="profile-job" data-translate="profile.job">Web Developer</p>
                     </div>
                 </div>
+                <!-- About Me Section -->
                 <div class="side description">
-                    <h3 class="side-title">Tentang Saya</h3>
+                    <h3 class="side-title" data-translate="about.title"></h3>
                     <div class="card description-card">
-                        <p class="description-text">
-                            Saya seorang Web Developer dengan pengalaman
-                            4 tahun, dari SMK Negeri 1 Cimahi. Saat ini
-                            bekerja sebagai Backend Web Developer, saya
-                            memiliki pengalaman yang cukup untuk 
-                            membangun sistem yang bekerja dengan baik,
-                            dengan penerapan konsep OOP, tetapi juga
-                            memiliki pemahaman dalam pemrograman
-                            fungsional, konsep RESTful API, Prinsip
-                            SOLID, Analisis Database, dan juga tahu
-                            bagaimana mengelola proyek dengan Git. Saya
-                            biasanya menggunakan arsitektur yang berbeda
-                            tergantung kebutuhan, mampu dengan NodeJS &
-                            sedang belajar Go.
-                        </p>
+                        <p class="description-text" data-translate="about.text"></p>
                     </div>
                 </div>
+                <!-- Techstack Section -->
                 <div class="side techstack">
-                    <h3 class="side-title">Techstack</h3>
+                    <h3 class="side-title" data-translate="techstack.title"></h3>
                     <div class="card techstack-card">
-                        <ul class="techstack-list">
-                            <li>PHP (Laravel & CodeIgniter)</li>
-                            <li>NodeJS (ExpressJS, VueJS & ReactJS)</li>
-                            <li>Go (Gin & GoFiber)</li>
-                            <li>Git (GitHub & GitLab)</li>
-                            <li>Docker</li>
-                            <li>SQL & No SQL (MySQL, Postgre, MongoDB & Firebase)</li>
-                            <li>Basic Server Deployment (AWS, Azure, GCP, CI/CD & Kubernetes)</li>
-                        </ul>
+                        <ul class="techstack-list"></ul>
                     </div>
                 </div>
+                <!-- Contact Section -->
                 <div class="side contact">
-                    <h3 class="side-title">Contact</h3>
+                    <h3 class="side-title" data-translate="contact.title"></h3>
                     <div class="card contact-card">
-                        <div class="contact-list phone">
-                            +62 895-3410-28697
-                        </div>
-                        <div class="contact-list email">
-                            restuedosetiaji@gmail.com
-                        </div>
-                        <div class="contact-list linkedin">
-                            https://www.linkedin.com/in/restu-edo-setiaji-06314b1b0/
-                        </div>
-                        <div class="contact-list address">
-                            Jl. Pojok Selatan No.159 RT 001/RW 007, Kel. Setiamanah,
-                            Kec. Cimahi Tengah, Cimahi, 40524
-                        </div>
+                        <div class="contact-list phone" data-translate="contact.phone"></div>
+                        <div class="contact-list email" data-translate="contact.email"></div>
+                        <div class="contact-list linkedin" data-translate="contact.linkedin"></div>
+                        <div class="contact-list address" data-translate="contact.address"></div>
                     </div>
                 </div>
             </aside>
-            <hr class="divider" />
+
+            <!-- Divider -->
+            <hr class="divider">
+
+            <!-- Content Section -->
             <div id="content">
+                <!-- Education Section -->
                 <article class="article education" id="education">
-                    <h3 class="article-title">Education</h3>
-                    <div class="card education-card">
-                        <h4 class="education-school">SMK Negeri 1 Cimahi</h4>
-                        <p class="education-major">Rekayasa Perangkat Lunak | Juni 2017 - Juli 2020</p>
-                        <ul>
-                            <li>Member, Unit IT STMPBDG</li>
-                            <li>Member, Forum SDRC RPL</li>
-                            <li>Member, SMK DEV</li>
-                            <li>Member, English Club</li>
-                        </ul>
-                    </div>
-                    <div class="card education-card">
-                        <h4 class="education-school">Universitas Terbuka</h4>
-                        <p class="education-major">Sistem Informasi | Maret 2024 - Sekarang</p>
-                    </div>
-                </article>
+                    <h3 class="article-title" data-translate="education.title"></h3>
+                    <div class="section education-section"></div>
+                </article>                
+
+                <!-- Work Experience Section -->
                 <article class="article work" id="work">
-                    <h3 class="article-title">Work Experiences</h3>
-                    <div class="card work-card">
-                        <h4 class="work-job">Back End Developer</h4>
-                        <p class="work-company">Serasi Autoraya | Juni 2022 - Sekarang</p>
-                        <ul>
-                            <li>Mengembangkan Backend untuk web dan aplikasi TRACtoGo dengan Lumen & NodeJS</li>
-                            <li>Bekerjasama dengan tim dalam membangun Microservice Backend TRACtoGo</li>
-                            <li>Melakukan performance & system improvement untuk Backend TRACtoGo</li>
-                            <li>Merancang fitur diskon & promo</li>
-                            <li>Memenuhi kebutuhan user dengan baik, sesuai requirements yang diminta</li>
-                        </ul>
-                    </div>
-                    <div class="card work-card">
-                        <h4 class="work-job">Web Developer</h4>
-                        <p class="work-company">Crayonpedia | Agustus 2020 - Juli 2022</p>
-                        <ul>
-                            <li>Mengembangkan Web Crayonpedia Exam dengan Codeigniter, MySQL, Gitlab dan Docker</li>
-                            <li>Memanajemen Data Siswa di platform Edutainment Crayonpedia</li>
-                            <li>Mendukung kerjasama dengan instansi lain seperti kursus, sertifikasi, sekolah dan
-                                universitas</li>
-                            <li>Mengisi pelatihan penggunaan platform Edutainment Crayonpedia di KCD 13 Ciamis</li>
-                        </ul>
-                    </div>
-                    <div class="card work-card">
-                        <h4 class="work-job">Web Developer</h4>
-                        <p class="work-company">Metanouva Informatika | Juni 2019 - Agustus 2019</p>
-                        <ul>
-                            <li>Menjadi partisipan program PKL di Metanouva Informatika</li>
-                            <li>Merancang Sistem Manajemen Proyek di Web Perusahaan Malaka9</li>
-                            <li>Membangun Web Perusahaan Malaka9</li>
-                            <li>Merancang modul Geolocation Information</li>
-                            <li>System untuk Perusahaan Eksternal</li>
-                        </ul>
-                    </div>
+                    <h3 class="article-title" data-translate="work.title"></h3>
+                    <div class="section work-section"></div>
                 </article>
+
+                <!-- Achievements Section -->
                 <article class="article achievements" id="achievements">
-                    <h3 class="article-title">Achievements</h3>
+                    <h3 class="article-title" data-translate="achievements.title"></h3>
                     <div class="card achievements-card">
-                        <ul>
-                            <li>Sertifikasi Dicoding (2021 - 2023)</li>
-                            <li>Sertifikasi Google Cloud Digital Leader (2021)</li>
-                            <li>Sertifikasi TOEIC (2020)</li>
-                            <li>Informatika WDC Participant (2018)</li>
-                            <li>Sertifikasi Pelatihan Microsoft Office Nusa Komputer (2017)</li>
-                        </ul>
+                        <ul class="achievements-list"></ul>
                     </div>
                 </article>
             </div>
         </div>
+
+        <!-- Portfolio Section -->
         <div class="page">
             <article class="article portfolio" id="portfolio">
-                <h3 class="article-title">Portfolio<span><a href="https://github.com/restuedos">https://github.com/restuedos</a></span></h3>
-                <div class="card portfolio-card">
-                    <img class="portfolio-preview"
-                        src="assets/img/portfolio1.png" />
-                    <div class="portfolio-description">
-                        <h3>Exam Crayonpedia - <a href="https://exam.crayonpedia.id">https://exam.crayonpedia.id</a></h3>
-                        <p>
-                            Platform Exam untuk Crayonpedia, Exam
-                            Crayonpedia menyajikan fitur Bank Soal, Analisis
-                            Butir Soal, serta Review Jawaban. Selain itu,
-                            terdapat 5 tipe soal yang dapat ditambahkan, yaitu
-                            Pilihan Ganda, Multi Opsi, Isian Singkat, Essay, dan
-                            Mencocokkan. Dibuat dengan Codeigniter dan
-                            MySQL, serta Docker sebagai test environment.
-                        </p>
-                    </div>
-                </div>
-                <hr />
-                <div class="card portfolio-card">
-                    <img class="portfolio-preview"
-                        src="assets/img/portfolio2.png" />
-                    <div class="portfolio-description">
-                        <h3>TRACtoGo - <a href="https://backend-ttg-staging.trac.astra.co.id">https://backend-ttg-staging.trac.astra.co.id</a></h3>
-                        <p>
-                            TRACtoGo adalah aplikasi Rental Mobil dan Bus yang
-                            tersedia di Web, Android, dan iOS. Kamu bisa memilih
-                            mobil yang kamu mau, dengan supir atau tanpa supir.
-                            Harga sewa menyesuaikan dengan tipe kendaraan yang
-                            tersedia, tapi jangan khawatir, kamu juga bisa
-                            mendapatkan informasi dan promo menarik yang ada
-                            di halaman utama aplikasi. Dibuat dengan Laravel
-                            Lumen sebagai backend & NodeJS + Typescript sebagai
-                            service integration middleware.
-                        </p>
-                    </div>
-                </div>
-                <hr />
-                <div class="card portfolio-card">
-                    <img class="portfolio-preview"
-                        src="assets/img/portfolio3.png" />
-                    <div class="portfolio-description">
-                        <h3>Lapor.io</h3>
-                        <p>
-                            Layanan Aspirasi Pengaduan Online Rakyat, atau
-                            Lapor adalah project yang saya buat ketika SMK
-                            dengan mengikuti tampilan web lapor.go.id.
-                            Fungsinya adalah untuk menerima laporan
-                            pengaduan dan melanjutkan ke instansi yang
-                            berwenang. Project ini dibuat dengan Laravel dan
-                            MySQL serta MaterializeCSS sebagai template
-                            front-end.
-                        </p>
-                    </div>
-                </div>
-                <hr />
-                <div class="card portfolio-card">
-                    <img class="portfolio-preview"
-                        src="assets/img/portfolio4.png" />
-                    <div class="portfolio-description">
-                        <h3>EDZero</h3>
-                        <p>
-                            EDZero adalah web portfolio untuk saya, yang
-                            saat ini masih dalam proses development. Dikembangkan
-                            sebisa mungkin dengan teknologi terbaru yang ada
-                            saat ini, seperti Laravel, Vue, TailwindCSS, Docker,
-                            dan Postgre. Nantinya, web ini akan digunakan juga
-                            untuk manajemen portfolio dan proyek yang sedang
-                            dikerjakan, dan juga tentunya untuk blog pribadi dan
-                            testimoni dari klien.
-                        </p>
-                    </div>
-                </div>
-            </article>
+                <h3 class="article-title">
+                    Portfolio
+                    <span><a href="https://github.com/restuedos">https://github.com/restuedos</a></span>
+                </h3>
+                <div class="section portfolio-section"></div>
+            </article>            
         </div>
     </main>
+
+    <!-- Footer Section -->
     <footer>
-        <span>Copyright - 2022 Restu Edo Setiaji</span>
+        <span data-translate="footer.text"></span>
     </footer>
+
     <!-- Script JS -->
     <script src="assets/js/script.js"></script>
 </body>
