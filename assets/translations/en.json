@@ -1,139 +1,139 @@
 {
-    "title": "Document",
-    "nav": {
-        "title": "EDZero",
-        "search": {
-            "placeholder": "Search..."
-        },
-        "menu": "Menu",
-        "menuItems": {
-            "education": "Education",
-            "work": "Work Experience",
-            "achievements": "Achievements",
-            "portfolio": "Portfolio"
-        }
+  "title": "Document",
+  "nav": {
+    "title": "EDZero",
+    "search": {
+      "placeholder": "Search..."
     },
-    "profile": {
-      "name": "Restu Edo Setiaji",
-      "job": "Web Developer"
-    },
-    "about": {
-      "title": "About Me",
-      "text": "I am a Web Developer with 4 years of experience from SMK Negeri 1 Cimahi. Currently working as a Backend Web Developer, I have substantial experience in building well-functioning systems with OOP principles, functional programming, RESTful API concepts, SOLID principles, database analysis, and project management using Git. I adapt different architectures based on needs, proficient with NodeJS, and currently learning Go."
-    },
-    "techstack": {
-      "title": "Techstack",
-      "items": [
-        "PHP (Laravel & CodeIgniter)",
-        "NodeJS (ExpressJS, VueJS & ReactJS)",
-        "Go (Gin & GoFiber)",
-        "Git (GitHub & GitLab)",
-        "Docker",
-        "SQL & NoSQL (MySQL, Postgre, MongoDB & Firebase)",
-        "Basic Server Deployment (AWS, Azure, GCP, CI/CD & Kubernetes)"
-      ]
-    },
-    "contact": {
-      "title": "Contact",
-      "phone": "+62 895-3410-28697",
-      "email": "restuedosetiaji@gmail.com",
-      "linkedin": "https://www.linkedin.com/in/restu-edo-setiaji-06314b1b0/",
-      "address": "Jl. Pojok Selatan No.159 RT 001/RW 007, Kel. Setiamanah, Kec. Cimahi Tengah, Cimahi, 40524"
-    },
-    "education": {
-      "title": "Education",
-      "schools": [
-        {
-          "name": "SMK Negeri 1 Cimahi",
-          "major": "Software Engineering | June 2017 - July 2020",
-          "activities": [
-            "Member, IT Unit STMPBDG",
-            "Member, SDRC RPL Forum",
-            "Member, SMK DEV",
-            "Member, English Club"
-          ]
-        },
-        {
-          "name": "Universitas Terbuka",
-          "major": "Information Systems | March 2024 - Present"
-        }
-      ]
-    },
-    "work": {
-      "title": "Work Experiences",
-      "jobs": [
-        {
-          "role": "Back End Developer",
-          "company": "Serasi Autoraya | June 2022 - Present",
-          "details": [
-            "Developed Backend for TRACtoGo web and app using Lumen & NodeJS",
-            "Collaborated with the team to build TRACtoGo Microservice Backend",
-            "Performed performance & system improvements for TRACtoGo Backend",
-            "Designed discount & promo features",
-            "Successfully fulfilled user requirements as requested"
-          ]
-        },
-        {
-          "role": "Web Developer",
-          "company": "Crayonpedia | August 2020 - July 2022",
-          "details": [
-            "Developed Crayonpedia Exam web with CodeIgniter, MySQL, Gitlab, and Docker",
-            "Managed student data on Crayonpedia Edutainment platform",
-            "Supported collaborations with institutions such as courses, certifications, schools, and universities",
-            "Conducted platform training for KCD 13 Ciamis"
-          ]
-        },
-        {
-          "role": "Web Developer",
-          "company": "Metanouva Informatika | June 2019 - August 2019",
-          "details": [
-            "Participated in internship program at Metanouva Informatika",
-            "Designed Project Management System for Malaka9 Company Website",
-            "Developed Malaka9 Company Website",
-            "Designed Geolocation Information module for external companies"
-          ]
-        }
-      ]
-    },
-    "achievements": {
-      "title": "Achievements",
-      "items": [
-        "Dicoding Certifications (2021 - 2023)",
-        "Google Cloud Digital Leader Certification (2021)",
-        "TOEIC Certification (2020)",
-        "Informatics WDC Participant (2018)",
-        "Microsoft Office Training Certification (2017)"
-      ]
-    },
-    "portfolio": {
-      "title": "Portfolio",
-      "projects": [
-        {
-          "title": "Exam Crayonpedia",
-          "link": "https://exam.crayonpedia.id",
-          "image": "assets/img/portfolio1.png",
-          "description": "An exam platform for Crayonpedia, featuring Question Bank, Question Analysis, and Answer Review. Includes 5 question types: Multiple Choice, Multi Option, Short Answer, Essay, and Matching. Built with CodeIgniter, MySQL, and Docker as a test environment."
-        },
-        {
-          "title": "TRACtoGo",
-          "link": "https://backend-ttg-staging.trac.astra.co.id",
-          "image": "assets/img/portfolio2.png",
-          "description": "TRACtoGo is a car and bus rental app available on Web, Android, and iOS. Users can choose vehicles with or without a driver. Rental prices depend on the vehicle type, with special promotions available. Built with Laravel Lumen as backend & NodeJS + Typescript as service integration middleware."
-        },
-        {
-          "title": "Lapor.io",
-          "image": "assets/img/portfolio3.png",
-          "description": "An online complaint service system project inspired by lapor.go.id. Accepts public complaints and forwards them to relevant authorities. Developed with Laravel, MySQL, and MaterializeCSS."
-        },
-        {
-          "title": "EDZero",
-          "image": "assets/img/portfolio4.png",
-          "description": "A portfolio website under development to showcase projects and manage personal blogs and client testimonials. Developed with Laravel, Vue, TailwindCSS, Docker, and PostgreSQL."
-        }
-      ]
-    },
-    "footer": {
-      "text": "Copyright - 2024 Restu Edo Setiaji"
+    "menu": "Menu",
+    "menuItems": {
+      "education": "Education",
+      "work": "Work Experience",
+      "achievements": "Achievements",
+      "portfolio": "Portfolio"
     }
+  },
+  "profile": {
+    "name": "Restu Edo Setiaji",
+    "job": "Web Developer"
+  },
+  "about": {
+    "title": "About Me",
+    "text": "I am a Web Developer with 4 years of experience from SMK Negeri 1 Cimahi. Currently working as a Backend Web Developer, I have substantial experience in building well-functioning systems with OOP principles, functional programming, RESTful/GraphQL API concepts, SOLID principles, database analysis, and project management using Git. I adapt different architectures based on needs, proficient with NodeJS, and currently learning Go."
+  },
+  "techstack": {
+    "title": "Techstack",
+    "items": [
+      "PHP (Laravel & CodeIgniter)",
+      "NodeJS (ExpressJS, NextJS, VueJS & ReactJS)",
+      "Go (Gin & GoFiber)",
+      "Git (GitHub & GitLab)",
+      "Docker",
+      "SQL & NoSQL (MySQL, Postgre, MongoDB & Firebase)",
+      "Basic Server Deployment (AWS, Azure, GCP, CI/CD & Kubernetes)"
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "phone": "+62 895-3410-28697",
+    "email": "restuedosetiaji@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/restu-edo-setiaji-06314b1b0/",
+    "address": "Jl. Pojok Selatan No.159 RT 001/RW 007, Kel. Setiamanah, Kec. Cimahi Tengah, Cimahi, 40524"
+  },
+  "education": {
+    "title": "Education",
+    "schools": [
+      {
+        "name": "SMK Negeri 1 Cimahi",
+        "major": "Software Engineering | June 2017 - July 2020",
+        "activities": [
+          "Member, Unit IT STMPBDG",
+          "Member, Forum SDRC RPL",
+          "Member, SMK DEV",
+          "Member, English Club"
+        ]
+      },
+      {
+        "name": "Universitas Terbuka",
+        "major": "Information Systems | March 2024 - Present"
+      }
+    ]
+  },
+  "work": {
+    "title": "Work Experiences",
+    "jobs": [
+      {
+        "role": "Back End Developer",
+        "company": "Serasi Autoraya | June 2022 - Present",
+        "details": [
+          "Developing the backend for applications and websites such as TRACtoGo, E-Form, TRAC Reservation, etc.",
+          "Integrating with payment gateways like AstraPay and Xendit, KYC services with ASFIN and AsliRI, as well as internal integrations with AstraFMS.",
+          "Maintaining microservices and cloud services within the Microsoft Azure environment, such as Function Apps, Service Bus, API Management, and others.",
+          "Performing system improvements, refactoring, and optimizing existing legacy code.",
+          "Handling operational issues through the helpdesk according to the monthly on-call schedule."
+        ]
+      },
+      {
+        "role": "Web Developer",
+        "company": "Crayonpedia | August 2020 - July 2022",
+        "details": [
+          "Developing language and localization features into Indonesian.",
+          "Adding new question types such as Essay, Image-based, Matching, and an IRT (Item Response Theory) scoring system.",
+          "Creating a review system and answer analytics with statistical insights for students.",
+          "Maintaining the website and database for school/organization exams in collaboration with Crayonpedia.",
+          "Deploying servers using Docker and Kubernetes."
+        ]
+      },
+      {
+        "role": "Web Developer",
+        "company": "Metanouva Informatika | June 2019 - August 2019",
+        "details": [
+          "Participated in internship program at Metanouva Informatika",
+          "Designed Project Management System for Malaka9 Company Website",
+          "Developed Malaka9 Company Website",
+          "Designed Geolocation Information module for external companies"
+        ]
+      }
+    ]
+  },
+  "achievements": {
+    "title": "Achievements",
+    "items": [
+      "Dicoding Certifications (2021 - 2023)",
+      "Google Cloud Digital Leader Certification (2021)",
+      "TOEIC Certification (2020)",
+      "Informatics WDC Participant (2018)",
+      "Microsoft Office Training Certification (2017)"
+    ]
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "projects": [
+      {
+        "title": "Exam Crayonpedia",
+        "link": "https://exam.crayonpedia.id",
+        "image": "assets/img/portfolio1.png",
+        "description": "Crayonpedia Exam platform offers features such as a Question Bank, Question Item Analysis, and Answer Review. Additionally, it supports five types of questions: Multiple Choice, Multi-Option, Short Answer, Essay, and Matching. The platform is developed using CodeIgniter and MySQL, with Docker utilized as the testing environment."
+      },
+      {
+        "title": "TRACtoGo",
+        "link": "https://play.google.com/store/apps/details?id=com.trac.tractogo&hl=id",
+        "image": "assets/img/portfolio2.png",
+        "description": "TRACtoGo is a Car and Bus Rental application available on Web, Android, and iOS. You can choose the vehicle you want, with or without a driver. Rental prices vary based on the type of vehicle available, but don't worry—you can also nd exciting information and promotions on the app's main page. The backend is built with Laravel Lumen, while Node.js and TypeScript are used as the service integration middleware."
+      },
+      {
+        "title": "Lapor.io",
+        "image": "assets/img/portfolio3.png",
+        "description": "Layanan Aspirasi Pengaduan Online Rakyat, or Lapor, is a project I created during vocational school, inspired by the design of the lapor.go.id website. Its function is to receive complaint reports and forward them to the appropriate authorities. This project was developed using Laravel and MySQL, with MaterializeCSS as the frontend template."
+      },
+      {
+        "title": "EDZero",
+        "image": "assets/img/portfolio4.png",
+        "description": "EDZero is my personal web portfolio that is currently under development. It is being built with the latest technologies available, such as Laravel, Vue, TailwindCSS, Docker, and PostgreSQL. As for now, Im trying to rewrite this project with NextJS. This website will eventually be used for managing my portfolio and ongoing projects, as well as serving as a platform for my personal blog and client testimonials."
+      }
+    ]
+  },
+  "footer": {
+    "text": "Copyright - 2024 Restu Edo Setiaji"
   }
-  
+}

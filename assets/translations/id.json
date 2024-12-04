@@ -1,139 +1,138 @@
 {
-    "title": "Dokumen",
-    "nav": {
-      "title": "EDZero",
-      "search": {
-        "placeholder": "Cari..."
-      },
-      "menu": "Menu",
-      "menuItems": {
-        "education": "Pendidikan",
-        "work": "Pengalaman Kerja",
-        "achievements": "Prestasi",
-        "portfolio": "Portofolio"
-      }
+  "title": "Dokumen",
+  "nav": {
+    "title": "EDZero",
+    "search": {
+      "placeholder": "Cari..."
     },
-    "profile": {
-      "name": "Restu Edo Setiaji",
-      "job": "Web Developer"
-    },
-    "about": {
-      "title": "Tentang Saya",
-      "text": "Saya seorang Pengembang Web dengan pengalaman 4 tahun dari SMK Negeri 1 Cimahi. Saat ini bekerja sebagai Pengembang Web Backend, saya memiliki pengalaman yang cukup dalam membangun sistem yang berfungsi dengan baik menggunakan prinsip OOP, pemrograman fungsional, konsep RESTful API, prinsip SOLID, analisis basis data, dan manajemen proyek menggunakan Git. Saya dapat menggunakan berbagai arsitektur sesuai kebutuhan, mahir dengan NodeJS, dan saat ini belajar Go."
-    },
-    "techstack": {
-      "title": "Teknologi",
-      "items": [
-        "PHP (Laravel & CodeIgniter)",
-        "NodeJS (ExpressJS, VueJS & ReactJS)",
-        "Go (Gin & GoFiber)",
-        "Git (GitHub & GitLab)",
-        "Docker",
-        "SQL & NoSQL (MySQL, Postgre, MongoDB & Firebase)",
-        "Deploy Server Dasar (AWS, Azure, GCP, CI/CD & Kubernetes)"
-      ]
-    },
-    "contact": {
-      "title": "Kontak",
-      "phone": "+62 895-3410-28697",
-      "email": "restuedosetiaji@gmail.com",
-      "linkedin": "https://www.linkedin.com/in/restu-edo-setiaji-06314b1b0/",
-      "address": "Jl. Pojok Selatan No.159 RT 001/RW 007, Kel. Setiamanah, Kec. Cimahi Tengah, Cimahi, 40524"
-    },
-    "education": {
-      "title": "Pendidikan",
-      "schools": [
-        {
-          "name": "SMK Negeri 1 Cimahi",
-          "major": "Rekayasa Perangkat Lunak | Juni 2017 - Juli 2020",
-          "activities": [
-            "Anggota, Unit IT STMPBDG",
-            "Anggota, Forum SDRC RPL",
-            "Anggota, SMK DEV",
-            "Anggota, Klub Bahasa Inggris"
-          ]
-        },
-        {
-          "name": "Universitas Terbuka",
-          "major": "Sistem Informasi | Maret 2024 - Sekarang"
-        }
-      ]
-    },
-    "work": {
-      "title": "Pengalaman Kerja",
-      "jobs": [
-        {
-          "role": "Pengembang Backend",
-          "company": "Serasi Autoraya | Juni 2022 - Sekarang",
-          "details": [
-            "Mengembangkan Backend untuk web dan aplikasi TRACtoGo menggunakan Lumen & NodeJS",
-            "Bekerjasama dengan tim dalam membangun Microservice Backend TRACtoGo",
-            "Melakukan perbaikan performa & sistem untuk Backend TRACtoGo",
-            "Merancang fitur diskon & promo",
-            "Memenuhi kebutuhan pengguna sesuai permintaan"
-          ]
-        },
-        {
-          "role": "Pengembang Web",
-          "company": "Crayonpedia | Agustus 2020 - Juli 2022",
-          "details": [
-            "Mengembangkan web Crayonpedia Exam menggunakan CodeIgniter, MySQL, Gitlab, dan Docker",
-            "Mengelola data siswa di platform Edutainment Crayonpedia",
-            "Mendukung kerja sama dengan institusi seperti kursus, sertifikasi, sekolah, dan universitas",
-            "Mengadakan pelatihan penggunaan platform Edutainment Crayonpedia di KCD 13 Ciamis"
-          ]
-        },
-        {
-          "role": "Pengembang Web",
-          "company": "Metanouva Informatika | Juni 2019 - Agustus 2019",
-          "details": [
-            "Berpartisipasi dalam program PKL di Metanouva Informatika",
-            "Merancang Sistem Manajemen Proyek untuk Web Perusahaan Malaka9",
-            "Membangun Web Perusahaan Malaka9",
-            "Merancang modul Informasi Geolokasi untuk perusahaan eksternal"
-          ]
-        }
-      ]
-    },
-    "achievements": {
-      "title": "Prestasi",
-      "items": [
-        "Sertifikasi Dicoding (2021 - 2023)",
-        "Sertifikasi Google Cloud Digital Leader (2021)",
-        "Sertifikasi TOEIC (2020)",
-        "Peserta Informatika WDC (2018)",
-        "Sertifikasi Pelatihan Microsoft Office Nusa Komputer (2017)"
-      ]
-    },
-    "portfolio": {
-      "title": "Portofolio",
-      "projects": [
-        {
-          "title": "Exam Crayonpedia",
-          "link": "https://exam.crayonpedia.id",
-          "image": "assets/img/portfolio1.png",
-          "description": "Platform ujian untuk Crayonpedia yang menyediakan fitur Bank Soal, Analisis Butir Soal, dan Review Jawaban. Mendukung 5 tipe soal: Pilihan Ganda, Multi Opsi, Isian Singkat, Essay, dan Mencocokkan. Dibangun menggunakan CodeIgniter, MySQL, dan Docker sebagai test environment."
-        },
-        {
-          "title": "TRACtoGo",
-          "link": "https://backend-ttg-staging.trac.astra.co.id",
-          "image": "assets/img/portfolio2.png",
-          "description": "TRACtoGo adalah aplikasi penyewaan mobil dan bus yang tersedia di Web, Android, dan iOS. Pengguna dapat memilih kendaraan dengan atau tanpa sopir. Harga sewa menyesuaikan jenis kendaraan, dengan promo menarik yang tersedia. Dibangun menggunakan Laravel Lumen sebagai backend & NodeJS + Typescript sebagai middleware integrasi layanan."
-        },
-        {
-          "title": "Lapor.io",
-          "image": "assets/img/portfolio3.png",
-          "description": "Sistem layanan pengaduan online yang dibuat saat SMK, terinspirasi dari lapor.go.id. Fungsi utamanya untuk menerima laporan dan meneruskannya ke instansi yang berwenang. Dibuat menggunakan Laravel, MySQL, dan MaterializeCSS."
-        },
-        {
-          "title": "EDZero",
-          "image": "assets/img/portfolio4.png",
-          "description": "Website portofolio pribadi yang sedang dikembangkan untuk menampilkan proyek, mengelola blog pribadi, dan memberikan testimoni klien. Dikembangkan menggunakan Laravel, Vue, TailwindCSS, Docker, dan PostgreSQL."
-        }
-      ]
-    },
-    "footer": {
-      "text": "Hak Cipta - 2024 Restu Edo Setiaji"
+    "menu": "Menu",
+    "menuItems": {
+      "education": "Pendidikan",
+      "work": "Pengalaman Kerja",
+      "achievements": "Prestasi",
+      "portfolio": "Portofolio"
     }
+  },
+  "profile": {
+    "name": "Restu Edo Setiaji",
+    "job": "Web Developer"
+  },
+  "about": {
+    "title": "Tentang Saya",
+    "text": "Saya adalah seorang Web Developer dengan pengalaman 4 tahun dari SMK Negeri 1 Cimahi. Saat ini bekerja sebagai Backend Web Developer, saya memiliki pengalaman yang luas dalam membangun sistem yang berfungsi dengan baik menggunakan prinsip OOP, pemrograman fungsional, konsep RESTful/GraphQL API, prinsip SOLID, analisis database, dan manajemen proyek menggunakan Git. Saya dapat menyesuaikan arsitektur sesuai kebutuhan, mahir menggunakan NodeJS, dan saat ini sedang mempelajari Go"
+  },
+  "techstack": {
+    "title": "Teknologi",
+    "items": [
+      "PHP (Laravel & CodeIgniter)",
+      "NodeJS (ExpressJS, VueJS & ReactJS)",
+      "Go (Gin & GoFiber)",
+      "Git (GitHub & GitLab)",
+      "Docker",
+      "SQL & NoSQL (MySQL, Postgre, MongoDB & Firebase)",
+      "Deploy Server Dasar (AWS, Azure, GCP, CI/CD & Kubernetes)"
+    ]
+  },
+  "contact": {
+    "title": "Kontak",
+    "phone": "+62 895-3410-28697",
+    "email": "restuedosetiaji@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/restu-edo-setiaji-06314b1b0/",
+    "address": "Jl. Pojok Selatan No.159 RT 001/RW 007, Kel. Setiamanah, Kec. Cimahi Tengah, Cimahi, 40524"
+  },
+  "education": {
+    "title": "Pendidikan",
+    "schools": [
+      {
+        "name": "SMK Negeri 1 Cimahi",
+        "major": "Rekayasa Perangkat Lunak | Juni 2017 - Juli 2020",
+        "activities": [
+          "Anggota, Unit IT STMPBDG",
+          "Anggota, Forum SDRC RPL",
+          "Anggota, SMK DEV",
+          "Anggota, English Club"
+        ]
+      },
+      {
+        "name": "Universitas Terbuka",
+        "major": "Sistem Informasi | Maret 2024 - Sekarang"
+      }
+    ]
+  },
+  "work": {
+    "title": "Pengalaman Kerja",
+    "jobs": [
+      {
+        "role": "Backend Developer",
+        "company": "Serasi Autoraya | Juni 2022 - Sekarang",
+        "details": [
+          "Mengembangkan Backend untuk web dan aplikasi TRACtoGo menggunakan Lumen & NodeJS",
+          "Bekerjasama dengan tim dalam membangun Microservice Backend TRACtoGo",
+          "Melakukan perbaikan performa & sistem untuk Backend TRACtoGo",
+          "Merancang fitur diskon & promo",
+          "Memenuhi kebutuhan pengguna sesuai permintaan"
+        ]
+      },
+      {
+        "role": "Web Developer",
+        "company": "Crayonpedia | Agustus 2020 - Juli 2022",
+        "details": [
+          "Mengembangkan web Crayonpedia Exam menggunakan CodeIgniter, MySQL, Gitlab, dan Docker",
+          "Mengelola data siswa di platform Edutainment Crayonpedia",
+          "Mendukung kerja sama dengan institusi seperti kursus, sertifikasi, sekolah, dan universitas",
+          "Mengadakan pelatihan penggunaan platform Edutainment Crayonpedia di KCD 13 Ciamis"
+        ]
+      },
+      {
+        "role": "Web Developer",
+        "company": "Metanouva Informatika | Juni 2019 - Agustus 2019",
+        "details": [
+          "Berpartisipasi dalam program PKL di Metanouva Informatika",
+          "Merancang Sistem Manajemen Proyek untuk Web Perusahaan Malaka9",
+          "Membangun Web Perusahaan Malaka9",
+          "Merancang modul Informasi Geolokasi untuk perusahaan eksternal"
+        ]
+      }
+    ]
+  },
+  "achievements": {
+    "title": "Prestasi",
+    "items": [
+      "Sertifikasi Dicoding (2021 - 2023)",
+      "Sertifikasi Google Cloud Digital Leader (2021)",
+      "Sertifikasi TOEIC (2020)",
+      "Peserta Informatika WDC (2018)",
+      "Sertifikasi Pelatihan Microsoft Office Nusa Komputer (2017)"
+    ]
+  },
+  "portfolio": {
+    "title": "Portofolio",
+    "projects": [
+      {
+        "title": "Exam Crayonpedia",
+        "link": "https://exam.crayonpedia.id",
+        "image": "assets/img/portfolio1.png",
+        "description": "Platform ujian Crayonpedia menawarkan fitur-fitur seperti Bank Soal, Analisis Butir Soal, dan Tinjauan Jawaban. Selain itu, platform ini mendukung lima jenis soal: Pilihan Ganda, Pilihan Ganda dengan Banyak Jawaban, Jawaban Singkat, Esai, dan Pencocokan. Platform ini dikembangkan menggunakan CodeIgniter dan MySQL, dengan Docker digunakan sebagai lingkungan pengujian."
+      },
+      {
+        "title": "TRACtoGo",
+        "link": "https://play.google.com/store/apps/details?id=com.trac.tractogo&hl=id",
+        "image": "assets/img/portfolio2.png",
+        "description": "TRACtoGo adalah aplikasi sewa mobil dan bus yang tersedia di Web, Android, dan iOS. Anda dapat memilih kendaraan yang diinginkan, baik dengan pengemudi maupun tanpa pengemudi. Harga sewa bervariasi tergantung pada jenis kendaraan yang tersedia. Namun, jangan khawatir—Anda juga dapat menemukan informasi menarik dan promosi di halaman utama aplikasi. Backend aplikasi ini dibangun menggunakan Laravel Lumen, sedangkan Node.js dan TypeScript digunakan sebagai middleware integrasi layanan."
+      },
+      {
+        "title": "Lapor.io",
+        "image": "assets/img/portfolio3.png",
+        "description": "Layanan Aspirasi Pengaduan Online Rakyat atau Lapor adalah proyek yang saya buat saat di sekolah kejuruan, terinspirasi dari desain situs web lapor.go.id. Fungsinya adalah menerima laporan pengaduan dan meneruskannya ke pihak berwenang yang sesuai. Proyek ini dikembangkan menggunakan Laravel dan MySQL, dengan MaterializeCSS sebagai template frontend."
+      },
+      {
+        "title": "EDZero",
+        "image": "assets/img/portfolio4.png",
+        "description": "EDZero adalah portofolio web pribadi saya yang saat ini sedang dalam pengembangan. Proyek ini dibangun menggunakan teknologi terbaru, seperti Laravel, Vue, TailwindCSS, Docker, dan PostgreSQL. Saat ini, saya sedang mencoba menulis ulang proyek ini menggunakan NextJS. Website ini nantinya akan digunakan untuk mengelola portofolio dan proyek yang sedang berjalan, serta berfungsi sebagai platform untuk blog pribadi saya dan testimoni dari klien."
+      }
+    ]
+  },
+  "footer": {
+    "text": "Hak Cipta - 2024 Restu Edo Setiaji"
   }
-  
+}
