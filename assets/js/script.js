@@ -10,10 +10,10 @@ collapsibles.forEach(collapsible => {
     collapsible.addEventListener("click", () => {
         // Toggle the active class
         collapsible.classList.toggle("active");
-        
+
         // Get the next sibling element
         const content = collapsible.nextElementSibling;
-        
+
         // Toggle the maxHeight style
         if (content.style.maxHeight) {
             content.style.maxHeight = null;
@@ -75,15 +75,15 @@ function applyTranslations(translations) {
     function renderList(containerSelector, items, createItemCallback) {
         const container = document.querySelector(containerSelector);
         if (!container) return; // Ensure the container exists
-    
+
         if (!Array.isArray(items)) {
             console.warn(`Expected an array for ${containerSelector}, but got:`, items);
             return;
         }
-    
+
         container.innerHTML = ""; // Clear previous content
         items.forEach((item, index, arr) => container.appendChild(createItemCallback(item, index, arr)));
-    }    
+    }
 
     // Render tech stack
     const techstackData = resolveTranslationKey(translations, "techstack.items");
