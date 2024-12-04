@@ -117,6 +117,7 @@
       {
         "title": "TRACtoGo",
         "link": "https://play.google.com/store/apps/details?id=com.trac.tractogo&hl=id",
+        "platform": "Playstore",
         "image": "assets/img/portfolio2.png",
         "description": "TRACtoGo adalah aplikasi sewa mobil dan bus yang tersedia di Web, Android, dan iOS. Anda dapat memilih kendaraan yang diinginkan, baik dengan pengemudi maupun tanpa pengemudi. Harga sewa bervariasi tergantung pada jenis kendaraan yang tersedia. Namun, jangan khawatir—Anda juga dapat menemukan informasi menarik dan promosi di halaman utama aplikasi. Backend aplikasi ini dibangun menggunakan Laravel Lumen, sedangkan Node.js dan TypeScript digunakan sebagai middleware integrasi layanan."
       },

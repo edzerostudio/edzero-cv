@@ -188,7 +188,7 @@ function applyTranslations(translations) {
 
             const title = document.createElement("h3");
             if (project.link) {
-                title.innerHTML = `${project.title} - <a href="${project.link}" target="_blank">${project.link}</a>`;
+                title.innerHTML = `${project.title} - <a href="${project.link}" target="_blank">${project?.platform || project.link}</a>`;
             } else {
                 title.textContent = project.title;
             }

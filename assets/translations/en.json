@@ -118,6 +118,7 @@
       {
         "title": "TRACtoGo",
         "link": "https://play.google.com/store/apps/details?id=com.trac.tractogo&hl=id",
+        "platform": "Playstore",
         "image": "assets/img/portfolio2.png",
         "description": "TRACtoGo is a Car and Bus Rental application available on Web, Android, and iOS. You can choose the vehicle you want, with or without a driver. Rental prices vary based on the type of vehicle available, but don't worry—you can also nd exciting information and promotions on the app's main page. The backend is built with Laravel Lumen, while Node.js and TypeScript are used as the service integration middleware."
       },
