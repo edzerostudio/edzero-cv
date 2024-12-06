@@ -46,6 +46,9 @@
                         <li class="nav-item"><a href="#achievements" data-translate="nav.menuItems.achievements"></a>
                         </li>
                         <li class="nav-item"><a href="#portfolio" data-translate="nav.menuItems.portfolio"></a></li>
+                        <li class="nav-item">
+                            <a type="button" class="btn btn-download" onclick="savePagesAsPDF()">Download</a>
+                        </li>
                     </ul>
                 </li>
             </ul>
@@ -137,6 +140,74 @@
 
     <!-- Script JS -->
     <script src="assets/js/script.js"></script>
+
+    <!-- Include jsPDF and html2canvas -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+    <script>
+        async function savePagesAsPDF() {
+            const { jsPDF } = window.jspdf; // Get jsPDF
+
+            // Standard Letter dimensions in mm (8.5 inches x 11 inches)
+            const letterWidth = 216; // Letter width in mm
+            const letterHeight = 279; // Letter height in mm
+            const margin = 0; // Margin in mm (on all sides)
+
+            // Calculate the available width and height for the content
+            const contentWidth = letterWidth - 2 * margin;
+            const contentHeight = letterHeight - 2 * margin;
+
+            // Select all div.page elements
+            const pages = document.querySelectorAll('.page');
+
+            const pdf = new jsPDF({
+                orientation: 'portrait',
+                unit: 'mm',
+                format: [letterWidth, letterHeight], // Set to Letter size
+            });
+
+            for (let i = 0; i < pages.length; i++) {
+                const page = pages[i];
+
+                // Use html2canvas to capture the element
+                const canvas = await html2canvas(page, {
+                    scale: 2, // Increase resolution
+                    useCORS: true, // Allow cross-origin images
+                });
+
+                // Get the original dimensions of the canvas
+                const canvasWidth = canvas.width;
+                const canvasHeight = canvas.height;
+
+                // Calculate the scaling factor to fit the content within the margins
+                const scaleX = contentWidth / canvasWidth;
+                const scaleY = contentHeight / canvasHeight;
+                const scale = Math.min(scaleX, scaleY); // Maintain aspect ratio
+
+                // Calculate the new dimensions of the image
+                const imgWidth = canvasWidth * scale;
+                const imgHeight = canvasHeight * scale;
+
+                // Center the image within the margins
+                const xOffset = margin + (contentWidth - imgWidth) / 2;
+                const yOffset = margin + (contentHeight - imgHeight) / 2;
+
+                // Convert the canvas to an image
+                const imgData = canvas.toDataURL('image/png');
+
+                // Add the image to the PDF
+                if (i > 0) {
+                    pdf.addPage(); // Add a new page for subsequent elements
+                }
+                pdf.addImage(imgData, 'PNG', xOffset, yOffset, imgWidth, imgHeight);
+            }
+
+            // Save the PDF
+            pdf.save('CV - Restu Edo Setiaji.pdf');
+        }
+    </script>
+
 </body>
 
 </html>

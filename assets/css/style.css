@@ -119,6 +119,11 @@ nav ul.navbar > li ul > li > a {
   text-decoration: none;
   padding: 8px 8px;
 }
+nav ul.navbar > li ul > li > a.btn {
+  cursor: pointer;
+  border: solid #ffffff 1px;
+  border-radius: 10%;
+}
 
 /* Nav Link hover animation*/
 nav ul.navbar > li ul > li > a {
@@ -135,10 +140,9 @@ nav ul.navbar > li ul > li > a:after {
   margin-bottom: -2px;
   transition: width 0.5s;
 }
-nav ul.navbar > li ul > li > a:hover:after {
+nav ul.navbar > li ul > li > a:hover:not(.btn-download):after {
   width: 100%;
 }
-
 nav ul.navbar > li ul > li > a:hover,
 nav ul.navbar > li ul > li > a:active {
   color: inherit;
