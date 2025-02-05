@@ -25,11 +25,11 @@
     "title": "Teknologi",
     "items": [
       "PHP (Laravel & CodeIgniter)",
-      "NodeJS (ExpressJS, VueJS & ReactJS)",
+      "NodeJS (ExpressJS, NestJS, NextJS & ReactJS)",
       "Go (Gin & GoFiber)",
       "Git (GitHub & GitLab)",
       "Docker",
-      "SQL & NoSQL (MySQL, Postgre, MongoDB & Firebase)",
+      "SQL & NoSQL (MySQL, PostgreSQL, MongoDB & Firebase)",
       "Deploy Server Dasar (AWS, Azure, GCP, CI/CD & Kubernetes)"
     ]
   },
