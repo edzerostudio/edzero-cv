@@ -25,11 +25,11 @@
     "title": "Techstack",
     "items": [
       "PHP (Laravel & CodeIgniter)",
-      "NodeJS (ExpressJS, NextJS, VueJS & ReactJS)",
+      "NodeJS (ExpressJS, NestJS, NextJS & ReactJS)",
       "Go (Gin & GoFiber)",
       "Git (GitHub & GitLab)",
       "Docker",
-      "SQL & NoSQL (MySQL, Postgre, MongoDB & Firebase)",
+      "SQL & NoSQL (MySQL, PostgreSQL, MongoDB & Firebase)",
       "Basic Server Deployment (AWS, Azure, GCP, CI/CD & Kubernetes)"
     ]
   },
